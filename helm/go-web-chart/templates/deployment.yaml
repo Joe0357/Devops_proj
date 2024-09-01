@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: go-web
-        image: joe0357/devops:{{ .Values.images.tag}}
+        image: joe0357/devops:{{ .Values.image.tag }}
         ports:
         - containerPort: 8080
