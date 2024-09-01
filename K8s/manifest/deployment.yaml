@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: go-web
-  lables: 
+  labels: 
     app: go-web
 spec:
   replicas: 1
