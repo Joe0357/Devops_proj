@@ -8,7 +8,7 @@ image:
   repository: joe0357/devops
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: "10661661111"
+  tag: "10661965499"
 
 ingress:
   enabled: false
